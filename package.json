@@ -1,0 +1,23 @@
+{
+  "name": "js-animations",
+  "version": "1.0.0",
+  "description": "A collection of JavaScript animations and effects",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 8080",
+    "dev": "npx http-server -p 8080 -o"
+  },
+  "keywords": [
+    "javascript",
+    "animations",
+    "css",
+    "effects",
+    "web"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
+
