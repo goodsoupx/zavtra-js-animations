@@ -16,12 +16,12 @@ Add the following code to your Webflow project:
 
 ### CSS
 ```html
-<link rel="stylesheet" href="https://yourdomain.com/css/loader-style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/goodsoupx/js-animations@master/css/loader-style.css">
 ```
 
 ### JavaScript
 ```html
-<script src="https://yourdomain.com/js/loader.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/goodsoupx/js-animations@master/js/loader.js"></script>
 ```
 
 ## How It Works
@@ -34,7 +34,7 @@ Add the following code to your Webflow project:
 ## Customization
 
 You can customize the preloader by editing `css/loader-style.css`:
-- Change the background color (currently `#ffffff`)
+- Change the background color (currently `#000000`)
 - Modify the spinner size and colors
 - Adjust animation speed
 - Customize the fade-out transition duration
