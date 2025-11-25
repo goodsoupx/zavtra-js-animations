@@ -4,7 +4,8 @@ A lightweight JavaScript page preloader that displays a loading animation while 
 
 ## Features
 
-- Smooth loading animation with customizable spinner
+- Centered 64×64 white square loader on a black backdrop
+- Quarter-turn animation: 350 ms rotation, 450 ms pause, ease-in-out motion
 - Minimum loading time guarantee (1 second)
 - Automatic preloader removal once page is fully loaded
 - Prevents scrolling during loading
@@ -27,7 +28,7 @@ Add the following code to your Webflow project:
 ## How It Works
 
 1. The preloader appears immediately when the page starts loading
-2. A spinner animation is displayed while content loads
+2. A geometric loader animates while content loads
 3. Once the page is fully loaded, the preloader fades out smoothly
 4. The preloader ensures a minimum display time of 1 second for a polished experience
 
@@ -35,6 +36,6 @@ Add the following code to your Webflow project:
 
 You can customize the preloader by editing `css/loader-style.css`:
 - Change the background color (currently `#000000`)
-- Modify the spinner size and colors
-- Adjust animation speed
+- Modify the loader size, shape, and colors
+- Adjust animation timing and easing
 - Customize the fade-out transition duration
